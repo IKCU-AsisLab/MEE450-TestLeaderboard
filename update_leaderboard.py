@@ -18,11 +18,21 @@ scores = {}
 header = "# 🏆 Class Leaderboard\n\n| Rank | Student | Score |\n| :--- | :--- | :--- |\n"
 
 # Assume table starts after line 3
-for line in lines[3:]:
-    if '|' in line:
-        parts = [p.strip() for p in line.split('|')]
-        if len(parts) >= 4:
-            scores[parts[2]] = float(parts[3])
+# ... inside your reading loop ...
+for line in lines:
+    if '|' not in line or ':---' in line or 'Rank' in line:
+        continue  # Skip headers, separators, and non-table lines
+    
+    parts = [p.strip() for p in line.split('|')]
+    
+    # Check if we have enough parts (usually Rank, Student, Score)
+    if len(parts) >= 4:
+        try:
+            student_name = parts[2]
+            score_val = float(parts[3])
+            scores[student_name] = score_val
+        except ValueError:
+            continue # Skip if the score column isn't a number
 
 # Update with the new score
 scores[student_name] = new_score
