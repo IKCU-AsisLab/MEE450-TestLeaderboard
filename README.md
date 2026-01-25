@@ -2,4 +2,4 @@
 
 | Rank | Student | Score |
 | :--- | :--- | :--- |
-| 1 | cagdask | 0.0 |
+| 1 | cagdask | 4.0 |
