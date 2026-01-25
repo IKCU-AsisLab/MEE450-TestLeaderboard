@@ -1,0 +1,21 @@
+name: Update Scoreboard
+on:
+  repository_dispatch:
+    types: [new_score]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run update script
+        env:
+          STUDENT_DATA: ${{照 json(github.event.client_payload) }}
+        run: python update_leaderboard.py
+      - name: Commit changes
+        run: |
+          git config --global user.name "ScoreBot"
+          git config --global user.email "bot@github.com"
+          git add README.md
+          git commit -m "Update score for ${{ github.event.client_payload.student }}"
+          git push
