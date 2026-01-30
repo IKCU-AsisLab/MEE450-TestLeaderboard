@@ -25,7 +25,7 @@ def update_readme(scores):
     # Usually we just sort by score descending.
     sorted_students = sorted(scores.items(), key=lambda item: float(item[1]['score']), reverse=True)
     
-    markdown_content = "# 🏆 MEE450 Simulation Leaderboard\n\n"
+    markdown_content = "# 🏆 MEE450 Project : Single Discrete Agent Leaderboard\n\n"
     markdown_content += "| Rank | Student | Score | Last Updated |\n"
     markdown_content += "| :--- | :--- | :--- | :--- |\n"
     
