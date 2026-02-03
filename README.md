@@ -1,8 +1,8 @@
-# 🏆 MEE450 Simulation Leaderboard
+# 🏆 MEE450 Project : Single Discrete Agent Leaderboard
 
 | Rank | Student | Score | Last Updated |
 | :--- | :--- | :--- | :--- |
-| 1 | **cagdask** | 61.14 | 2026-01-30 22:11:49 |
+| 1 | **cagdask** | 60.70 | 2026-02-03 22:29:03 |
 
 
 *Updated automatically by GitHub Actions.*
