@@ -2,7 +2,7 @@
 
 | Rank | Student | Score | Last Updated |
 | :--- | :--- | :--- | :--- |
-| 1 | **suleymanemirerbil** | 92.87 | 2026-04-18 11:56:56 |
+| 1 | **suleymanemirerbil** | 93.14 | 2026-04-19 14:27:58 |
 | 2 | **InT3ReStInG** | 92.24 | 2026-02-26 18:29:51 |
 | 3 | **ArdaSurucu** | 91.07 | 2026-04-09 09:43:26 |
 | 4 | **eemrekisa** | 88.20 | 2026-02-21 01:05:59 |
