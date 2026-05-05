@@ -22,7 +22,7 @@
 | 18 | **mervebabacann** | -365.80 | 2026-05-04 16:29:08 |
 | 19 | **hkmtceker** | -377.12 | 2026-04-29 20:46:55 |
 | 20 | **sengulbuse** | -2878.75 | 2026-05-03 23:24:33 |
-| 21 | **erdolmelike50-eng** | -10459.46 | 2026-05-05 17:40:13 |
+| 21 | **erdolmelike50-eng** | -10239.51 | 2026-05-05 17:43:05 |
 
 
 *Updated automatically by GitHub Actions.*
